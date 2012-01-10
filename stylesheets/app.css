@@ -1,0 +1,143 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+
+
+
+/* -----------------------------------------
+   Home
+----------------------------------------- */
+.banner h3{
+    color: #FFF;
+}
+
+.banner p{
+    color: #FFF;
+    font-size: 18px;
+    line-height:  26px;
+}
+
+.banner .row{
+    padding: 10px 0 10px;
+}
+
+
+.category{
+    
+}
+.category h2{
+    font-size: 28px;
+    color: #d13030;
+    font-weight: normal;
+}
+
+.category p{
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.category .img-box{
+    background: #FFF;
+    padding: 3px 5px;
+    margin: 20px 0;
+    box-shadow: 3px 3px 3px #444;
+    text-align: center;
+}
+.category .more-info{
+    background: url("../images/misc/icons-sprite.png") no-repeat scroll -72px -69px transparent;
+    color: #ea222a;
+    float: right;    
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{}
+.footer h5{
+    color: #FFF;
+    border-bottom: 1px solid #6b6b6b;
+    margin-bottom: 10px;
+}
+
+    .footer .whats-new .news-title{
+        color: #f53b3b;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .footer .whats-new p{
+        color: #FFF;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    
+    .read-more, .read-more:hover{
+        color: #f53b3b;
+        float:right;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 12px;
+    }
+    
+    .footer .phone, .footer .mail, .footer .lbl-address {
+        background: url("../images/misc/icons-sprite.png") no-repeat scroll -7px -8px transparent;
+        color: #898989;
+        display: block;
+        font-style: italic;
+        line-height: 24px;
+        padding-left: 24px;
+        text-decoration: none;
+    }
+    
+    .footer .mail{
+        background-position: -39px -33px;
+    }
+    
+    
+    .footer .phone-num, .footer .mail-add{
+        line-height: 24px;
+        color: #FFF;
+        font-weight: bold;
+    }
+    
+    .footer .mail-add a{
+        color: #f53b3b;
+    }
+    
+    .footer .lbl-address{
+        background-position: -106px -100px;
+        float: left;
+    }
+    
+    .footer .address{
+        float:right;
+        color: #FFF;
+        line-height: 24px;
+    }
+    
+    .footer .copyright{
+        border-top: 1px solid #000000;
+        color: #454545;
+        margin-top: 10px;        
+        font-size: 10px;
+        padding-top: 10px;
+    }
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
