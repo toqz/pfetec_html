@@ -12,10 +12,16 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
-
-
-
+.more-info {
+  background: url("../images/misc/icons-sprite.png") no-repeat scroll -72px -69px transparent;
+  color: #EA222A;
+  float: right;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 160%;
+  font-size: 110%;
+  vertical-align: middle;
+}
 
 /* -----------------------------------------
    Home
@@ -57,13 +63,6 @@
     margin: 20px 0;
     box-shadow: 3px 3px 3px #444;
     text-align: center;
-}
-.category .more-info{
-    background: url("../images/misc/icons-sprite.png") no-repeat scroll -72px -69px transparent;
-    color: #ea222a;
-    float: right;    
-    padding-left: 20px;
-    margin-bottom: 20px;
 }
 
 .footer{}
@@ -137,7 +136,94 @@
         padding-top: 10px;
     }
 /* -----------------------------------------
-   Page Name 2
+   Product
 ----------------------------------------- */
 
+/* Product Banner
+	-------------------------------------------------- */
+	.product-banner{
+	  background: url("../images/misc/product-banner-bg.png") repeat-x left center;
+	  height:170px;
+	}
+	.product-banner .row{
+	  padding:20px 0;
+	  overflow:hidden;
+	}
+	.product-banner .row h3{
+	  font-size:200%;
+	  text-transform:uppercase;
+  }
+  .product-banner .row p{
+	  color: #FFF; 
+ 		font-size:140%;
+ 		line-height:140%;
+  }	
 
+/* Product Sidebar
+	-------------------------------------------------- */
+	.row .four.columns.sidebar{
+	  width:28.4%;
+	}
+	.sidebar{
+	  padding-right:2%;
+	}
+	.sidebar .nav{}
+	.sidebar .nav .parent{}
+  .sidebar .nav ul.lvl-1{}
+  .sidebar a{
+    display:block;
+  }
+    
+  /**  First Level **/
+  .sidebar ul{
+    margin:0;padding:0;
+  } 
+  .sidebar ul li{}
+  .sidebar ul li a{
+    font-size:160%;
+    font-weight:600;
+    padding:5px 0;
+    border-bottom:2px solid #d13030;
+    color: #d13030;
+  }
+    
+  /** 2nd Level **/
+  .sidebar ul ul{
+    margin:0;padding:0;    
+  } 
+  .sidebar ul ul li{}
+  .sidebar ul ul li a{
+    color: #747474;
+    font-size:100%;
+    border-bottom:1px dotted #747474;
+  }
+
+  /** 3rd Level **/    
+  .sidebar ul ul ul{
+    margin:0 0 0 15px;
+    padding:0;    
+  }
+  .sidebar ul ul ul li{} 
+    
+           
+/* Product Content
+	-------------------------------------------------- */
+  .product.content{
+    padding: 20px 0;
+  }
+  .product .sidebar{
+    
+  }
+  .product .row .eight.columns{
+    margin-left: 0;
+    padding-left: 4.4%;
+  }
+  .product .main{
+    background: url("../images/misc/sidebar-divider.png") repeat-y left top;
+    min-height:600px;
+  }
+  .product .item{
+    background: url("../images/misc/horizontal-divider.png") repeat-x left top;
+    padding:15px 0;
+  }
+  
